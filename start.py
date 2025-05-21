@@ -16,6 +16,11 @@
 import sys
 
 from octobot.cli import main
+import octobot_commons.constants
+
+# Redéfinition dynamique AVANT le démarrage d'OctoBot
+octobot_commons.constants.USER_FOLDER = "/data/user"
+octobot_commons.constants.TENTACLES_FOLDER = "/data/tentacles"
 
 if __name__ == '__main__':
     main(sys.argv[1:])
