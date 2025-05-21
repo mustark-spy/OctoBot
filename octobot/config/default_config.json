@@ -19,5 +19,9 @@
     ]
   },
   "profile": "default",
-  "accepted_terms": false
+  "accepted_terms": false,
+  "paths": {
+    "user_data": "/data/user",
+    "tentacles": "/data/tentacles"
+  }
 }
