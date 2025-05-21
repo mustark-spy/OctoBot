@@ -33,7 +33,7 @@ from octobot import (
 # load environment variables from .env file if exists
 DOTENV_PATH = os.getenv("DOTENV_PATH", os.path.curdir)
 dotenv.load_dotenv(os.path.join(DOTENV_PATH, ".env"), verbose=False)
-
+USER_FOLDER = "/data/user"
 # OctoBot urls
 OCTOBOT_WEBSITE_URL = os.getenv("OCTOBOT_ONLINE_URL", "https://www.octobot.cloud")
 OCTOBOT_DOCS_URL = os.getenv("DOCS_OCTOBOT_ONLINE_URL", "https://www.octobot.cloud/en/guides")
